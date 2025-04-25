@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.17.0 at 2025-04-24T21:17:20.194910788Z
+# Generated with JReleaser 1.17.0 at 2025-04-25T04:21:57.349285966Z
 
 class SpotlessCli < Formula
   desc "Keep your code Spotless from the command line"
@@ -8,19 +8,19 @@ class SpotlessCli < Formula
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/diffplug/spotless-cli/releases/download/v0.1.0/spotless-0.1.0-linux-aarch_64.zip"
-    sha256 "1438faca2b592c47c81cd3f14bfb1680a09f9bc414ea65b16995aeaccd0fc0ea"
+    sha256 "c23acb9d35510ea6009b27f4ff6f2ed3ebfa2075fcd4f336c7797cc8e06f968e"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/diffplug/spotless-cli/releases/download/v0.1.0/spotless-0.1.0-linux-x86_64.zip"
-    sha256 "7a05dcb17a056c200c713c1464782b14ad4988c9648cb0a3997725b0446ba806"
+    sha256 "77d9e1fac3ffcd89ae9c094ae3071986b63b3faaa86062f7e15cc4a98881d4aa"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/diffplug/spotless-cli/releases/download/v0.1.0/spotless-0.1.0-osx-aarch_64.zip"
-    sha256 "fae4783799a95ff62823de8ea70adc9f68c9f57e801ce664c709a388faf34842"
+    sha256 "26ddf6c3db4217e06236f8971b1b0ce5da4970c4ba86657aef4ffc745f547213"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/diffplug/spotless-cli/releases/download/v0.1.0/spotless-0.1.0-osx-x86_64.zip"
-    sha256 "b5780e302150bb5d9f3bfe54abf36868a96aa5dccf5df1e1d11cbdf23ea70201"
+    sha256 "652b25123ff224e2f6c8aa25b89e1db3e2083d2f64f04f2ab19204c3be837c67"
   end
 
 
